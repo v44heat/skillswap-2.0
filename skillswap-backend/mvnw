@@ -1,0 +1,4 @@
+#!/bin/sh
+# Maven Wrapper script
+MAVEN_OPTS="${MAVEN_OPTS:-}"
+exec mvn "$@"
