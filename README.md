@@ -113,50 +113,6 @@ skillswap/
         └── utils/              Constants, helpers
 ```
 
----
-
-## API Endpoints
-
-```
-POST   /api/auth/register
-POST   /api/auth/login
-GET    /api/auth/me
-
-GET    /api/skills/my
-POST   /api/skills
-PUT    /api/skills/{id}
-DELETE /api/skills/{id}
-GET    /api/skills/browse
-
-GET    /api/requests/sent
-GET    /api/requests/received
-POST   /api/requests
-PUT    /api/requests/{id}/accept
-PUT    /api/requests/{id}/reject
-DELETE /api/requests/{id}
-
-GET    /api/sessions/upcoming
-GET    /api/sessions/past
-PUT    /api/sessions/{id}/complete
-PUT    /api/sessions/{id}/cancel
-
-GET    /api/notifications
-PUT    /api/notifications/{id}/read
-PUT    /api/notifications/read-all
-DELETE /api/notifications/{id}
-
-POST   /api/feedback
-
-GET    /api/admin/stats
-GET    /api/admin/users
-PUT    /api/admin/users/{id}/suspend
-POST   /api/admin/users/{id}/reset-password
-DELETE /api/admin/users/{id}
-GET    /api/admin/skills
-PUT    /api/admin/skills/{id}/toggle
-DELETE /api/admin/skills/{id}
-GET    /api/admin/requests
-PUT    /api/admin/requests/{id}/cancel
 GET    /api/admin/sessions
 PUT    /api/admin/sessions/{id}/cancel
 GET    /api/admin/activity
