@@ -20,7 +20,7 @@ Full-stack web app: React 18 frontend + Spring Boot 3 backend + PostgreSQL.
 psql -U postgres -f skillswap-backend/src/main/resources/schema.sql
 ```
 
-Or create the DB manually and let Hibernate auto-create tables on first run:
+Or create the DB manually from PGadmin and let Hibernate auto-create tables on first run:
 ```sql
 CREATE DATABASE skillswap;
 ```
