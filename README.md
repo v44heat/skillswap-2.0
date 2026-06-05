@@ -112,8 +112,3 @@ skillswap/
         ├── services/           Axios service modules
         └── utils/              Constants, helpers
 ```
-
-GET    /api/admin/sessions
-PUT    /api/admin/sessions/{id}/cancel
-GET    /api/admin/activity
-```
