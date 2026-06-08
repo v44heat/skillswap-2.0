@@ -73,7 +73,7 @@ App runs at **http://localhost:3000**
 
 ---
 
-## Running in VS Code (recommended)
+## Running in VS Code (recommended).
 
 1. Open the `skillswap-backend` folder
 2. Install **Extension Pack for Java** (Microsoft)
