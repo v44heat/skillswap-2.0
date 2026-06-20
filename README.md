@@ -16,11 +16,7 @@ Full-stack web app: React 18 frontend + Spring Boot 3 backend + PostgreSQL.
 
 ### 1. Database
 
-```bash
-psql -U postgres -f skillswap-backend/src/main/resources/schema.sql
-```
-
-Or create the DB manually from PGadmin and let Hibernate auto-create tables on first run:
+create the DB manually from PGadmin and copy the contents from schema.sql into the query tool and let Hibernate auto-create tables on first run:
 ```sql
 CREATE DATABASE skillswap;
 ```
@@ -73,7 +69,7 @@ App runs at **http://localhost:3000**
 
 ---
 
-## Running in VS Code (recommended).
+## Running in VS Code
 
 1. Open the `skillswap-backend` folder
 2. Install **Extension Pack for Java** (Microsoft)
@@ -83,6 +79,8 @@ App runs at **http://localhost:3000**
 Or use the integrated terminal:
 ```bash
 mvn spring-boot:run
+
+But for much more faster accuracy and less errors I recommend the use of IntelliJ Idea
 ```
 
 ---
