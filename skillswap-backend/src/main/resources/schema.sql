@@ -2,7 +2,6 @@
 -- Run ONCE against your PostgreSQL skillswap database.
 --
 -- In pgAdmin: Database > skillswap > Query Tool > paste this > Run (F5)
--- In terminal: psql -U postgres -d skillswap -f schema.sql
 
 CREATE TABLE IF NOT EXISTS users (
     id BIGSERIAL PRIMARY KEY,
