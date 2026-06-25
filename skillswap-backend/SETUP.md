@@ -19,11 +19,6 @@ CREATE DATABASE skillswap;
 ```
 Then run the schema file in pgAdmin's Query Tool (open `src/main/resources/schema.sql`).
 
-Or from terminal:
-```bash
-psql -U postgres -c "CREATE DATABASE skillswap;"
-psql -U postgres -d skillswap -f src/main/resources/schema.sql
-```
 
 ## Step 3 — Fix IntelliJ stale cache (IMPORTANT if you see ExceptionInInitializerError)
 
