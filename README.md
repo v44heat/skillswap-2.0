@@ -85,29 +85,4 @@ But for much more faster accuracy and less errors I recommend the use of Intelli
 
 ---
 
-## Project Structure
-
-```
-skillswap/
-├── skillswap-backend/          Spring Boot 3 API
-│   ├── src/main/java/com/skillswap/
-│   │   ├── config/             SecurityConfig, WebConfig (CORS)
-│   │   ├── controller/         8 REST controllers
-│   │   ├── dto/                Request + Response DTOs
-│   │   ├── exception/          Global error handler
-│   │   ├── model/              7 JPA entities
-│   │   ├── repository/         7 Spring Data repos
-│   │   ├── security/           JWT filter + provider
-│   │   └── service/            Business logic
-│   └── src/main/resources/
-│       ├── application.properties
-│       └── schema.sql
-└── skillswap-frontend/         React 18 SPA
-    └── src/
-        ├── components/         All pages + UI components
-        ├── context/            Auth, Notification, Toast
-        ├── hooks/              useAuth, useNotifications, useToast
-        ├── services/           Axios service modules
-        └── utils/              Constants, helpers
-```
 Build By Section Black #The Homies
