@@ -19,6 +19,7 @@ Full-stack web app: React 18 frontend + Spring Boot 3 backend + PostgreSQL.
 create the DB manually from PGadmin and copy the contents from schema.sql into the query tool and let Hibernate auto-create tables on first run:
 ```sql
 CREATE DATABASE skillswap;
+and then press run
 ```
 
 ---
