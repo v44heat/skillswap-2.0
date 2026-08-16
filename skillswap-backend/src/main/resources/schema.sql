@@ -2,6 +2,7 @@
 -- Run ONCE against your PostgreSQL skillswap database.
 --
 -- In pgAdmin: Database > skillswap > Query Tool > paste this > Run (F5)
+-- Still the same databse used for mobile
 
 CREATE TABLE IF NOT EXISTS users (
     id BIGSERIAL PRIMARY KEY,
