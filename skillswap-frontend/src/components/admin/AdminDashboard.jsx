@@ -1,3 +1,4 @@
+// React dashboard for admin panel
 import React, { useState, useEffect } from 'react';
 import adminService from '../../services/adminService';
 import { Spinner } from '../common/UI';
