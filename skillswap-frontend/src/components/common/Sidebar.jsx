@@ -95,6 +95,7 @@ export default function Sidebar() {
         <button className="sidebar-item" style={{ color: 'var(--red)' }} onClick={handleLogout} type="button">
           <span className="sidebar-icon">🚪</span>
           Sign out
+// sign out button 
         </button>
       </div>
     </aside>
