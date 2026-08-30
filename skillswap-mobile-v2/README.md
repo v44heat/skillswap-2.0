@@ -25,7 +25,6 @@ Open `src/utils/constants.js` and change `API_BASE_URL`:
 |-----------|-------|
 | Physical Android/iOS phone | `http://YOUR_PC_IP:8080/api` |
 | Android emulator | `http://10.0.2.2:8080/api` |
-| iOS simulator | `http://localhost:8080/api` |
 
 **Find your PC IP (Windows):**
 1. Open Command Prompt
@@ -34,6 +33,7 @@ Open `src/utils/constants.js` and change `API_BASE_URL`:
 4. Set: `http://192.168.1.105:8080/api`
 
 > ⚠️ Your phone and PC must be on the **same Wi-Fi network**.
+> Or otherwise Install n-grok to create a tunneled environment
 
 ---
 
