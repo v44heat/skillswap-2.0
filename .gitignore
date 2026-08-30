@@ -1,0 +1,7 @@
+node_modules/ 
+skillswap-mobile-v2/node_modules/ 
+skillswap-mobile-v2/.expo/ 
+skillswap-frontend/node_modules/ 
+skillswap-frontend/build/ 
+skillswap-backend/target/ 
+.idea/ 
