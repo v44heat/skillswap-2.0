@@ -4,6 +4,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Text } from 'react-native';
 
+
 import { useAuth } from '../context/AuthContext';
 import { LoadingScreen } from '../components/UI';
 import { colors } from '../utils/theme';
