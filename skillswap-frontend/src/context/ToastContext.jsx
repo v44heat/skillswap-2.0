@@ -28,6 +28,7 @@ export function ToastProvider({ children }) {
           <div
             key={t.id}
             style={{
+              //    gbgvdvbgffnfgn
               display: 'flex', alignItems: 'center', gap: 10,
               padding: '11px 16px', borderRadius: 10, color: '#fff',
               boxShadow: '0 4px 20px rgba(0,0,0,.4)', minWidth: 240, maxWidth: 360,
