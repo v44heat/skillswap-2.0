@@ -86,7 +86,6 @@ npx expo start
 |------|-------|----------|
 | Admin | admin@skillswap.com | Admin@123 |
 | Student | alex@uni.edu | password123 |
-| Student | priya@uni.edu | password123 |
 
 ---
 
